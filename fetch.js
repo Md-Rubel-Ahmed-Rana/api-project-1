@@ -1,6 +1,5 @@
 
 const displayData = (data) => {
-    console.log(data);
     const postContainer = document.getElementById("post-container");
     for (const user of data) {
         const postDiv = document.createElement("div");
